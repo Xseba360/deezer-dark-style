@@ -7,7 +7,6 @@
 .modal-footer,
 .naboo,
 .naboo-catalog .catalog-tab-box,
-.page-naboo-search .search-header,
 .page-naboo-search .search-suggest,
 .page-scroll,
 body {
@@ -494,11 +493,11 @@ a.link-gray-dark {
 	background-color: #007feb !important;
 }
 .slide.slide-cut .slide-background {
-	background-color: #292933;
+	background-color: #292933 !important;
 }
 .slide.slide-cut .slide-covers:after {
-	background-color: #292933;
-	border-left: 1px solid #292933;
+	background-color: #292933 !important;
+	border-left: 1px solid #292933 !important;
 }
 .slide.slide-cut {
 	border: 1px solid #292933;
@@ -531,6 +530,9 @@ li.conversion-entrypoints {
 .slide .slide-btn {
 	color: #92929d;
 	border: 1px solid #92929d;
+}
+.page-naboo-search .search-header {
+    background-color: #292933;
 }
 }
 
