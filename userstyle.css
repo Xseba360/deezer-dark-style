@@ -100,7 +100,8 @@ a.link-gray-dark {
 .btn-group>.btn.btn-default.active,
 .c0110:not(.c0115).c0114 {
 	background-color: #3d3d4a!important;
-	color: #007FEB
+	/*color: #007FEB*/
+	color: #dedede;
 }
 #page_profile .user-section .user-section-suggestion .user-arrow-down {
 	border-color: #42424d transparent transparent
@@ -125,15 +126,20 @@ a.link-gray-dark {
 	background-color: #23232d;
 	border-bottom: 1px solid #23232d
 }
-.dropdown .dropdown-menu>li>a:hover {
+.dropdown .dropdown-menu>li>a:hover,
+.dropdown .dropdown-menu>li>button:hover,
+.navbar-dropdown .dropdown-menu>li>a:hover {
 	background-color: #42424d;
 	color: #c2c2ca
 }
-.dropdown .dropdown-menu>li>a {
+.dropdown .dropdown-menu>li>a,
+.dropdown .dropdown-menu>li>button,
+.navbar-dropdown .dropdown-menu>li>a {
 	background-color: #32323d;
 	color: #72727D
 }
-.dropdown .dropdown-menu {
+.dropdown .dropdown-menu,
+.navbar-dropdown .dropdown-menu {
 	background-color: #32323d;
 	border: 1px solid #23232d
 }
@@ -309,6 +315,12 @@ a.link-gray-dark {
 }
 .popover-bottom:after {
 	border-bottom-color: #32323d
+}
+.popover-left-bottom:before {
+	border-left-color: #23232d
+}
+.popover-left-bottom:after {
+	border-left-color: #32323d
 }
 .channel-horizontalgrid-control {
 	border: 1px solid #23232d;
@@ -550,6 +562,10 @@ li.conversion-entrypoints {
 }
 .datagrid-header .datagrid-row {
     background-color: #23232d;
+}
+.page-panels .panel-header .form-control {
+    border: 1px solid #23232d;
+    background-color: #32323d;
 }
 }
 
