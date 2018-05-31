@@ -87,7 +87,8 @@ a.link-gray-dark {
 .btn-group>.btn-label,
 .btn-info-light,
 .btn-slide,
-.btn-telco {
+.btn-telco,
+.c0110 {
 	background-color: #32323d;
 	border: 1px solid #23232d;
 	color: #92929d
@@ -96,7 +97,8 @@ a.link-gray-dark {
 .btn-group>.btn.active.btn-label,
 .btn-group>.btn.active.btn-slide,
 .btn-group>.btn.active.btn-telco,
-.btn-group>.btn.btn-default.active {
+.btn-group>.btn.btn-default.active,
+.c0110:not(.c0115).c0114 {
 	background-color: #3d3d4a!important;
 	color: #007FEB
 }
@@ -212,7 +214,8 @@ a.link-gray-dark {
 .selectbox.opened .dropdown-toggle.btn-app,
 .selectbox.opened .dropdown-toggle.btn-default,
 .selectbox.opened .dropdown-toggle.btn-slide,
-.selectbox.opened .dropdown-toggle.btn-telco {
+.selectbox.opened .dropdown-toggle.btn-telco,
+.c0110:not(.c0115):hover {
 	background-color: #42424d
 }
 .btn-tag-400,
@@ -480,6 +483,17 @@ a.link-gray-dark {
 	border-color: #007feb;
 	color: #e8e8ec;
 }
+.navbar-dropdown:hover .navbar-link {
+    border-color: #92929d;
+}
+.navbar-dropdown .navbar-link {
+    border-color: rgba(0,0,0,0);
+}
+.navbar-link:hover {
+    border-color: #92929d;
+    color: #92929d;
+    text-decoration: none;
+}
 .abp-banner-container {
 	display: none;
 }
@@ -533,6 +547,9 @@ li.conversion-entrypoints {
 }
 .page-naboo-search .search-header {
     background-color: #292933;
+}
+.datagrid-header .datagrid-row {
+    background-color: #23232d;
 }
 }
 
