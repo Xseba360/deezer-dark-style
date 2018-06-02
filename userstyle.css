@@ -292,35 +292,29 @@ a.link-gray-dark {
 	background-color: #1c1c25;
 	color: #007feb
 }
-.popover-right:before {
-	border-right-color: #23232d
+.popover-top:before,.popover-top-left:before,.popover-top-right:before {
+border-top-color:#23232d;
 }
-.popover-right:after {
-	border-right-color: #32323d
+.popover-top:after,.popover-top-left:after,.popover-top-right:after {
+border-top-color:#32323d;
 }
-.popover-left:before {
-	border-left-color: #23232d
+.popover-right:before,.popover-right-top:before,.popover-right-bottom:before {
+border-right-color:#23232d;
 }
-.popover-left:after {
-	border-left-color: #32323d
+.popover-right:after,.popover-right-top:after,.popover-right-bottom:after {
+border-right-color:#32323d;
 }
-.popover-top:before {
-	border-top-color: #23232d
+.popover-bottom:before,.popover-bottom-left:before,.popover-bottom-right:before {
+border-bottom-color:#23232d;
 }
-.popover-top:after {
-	border-top-color: #32323d
+.popover-bottom:after,.popover-bottom-left:after,.popover-bottom-right:after {
+border-bottom-color:#32323d;
 }
-.popover-bottom:before {
-	border-bottom-color: #23232d
+.popover-left:before,.popover-left-top:before,.popover-left-bottom:before {
+border-left-color:#23232d;
 }
-.popover-bottom:after {
-	border-bottom-color: #32323d
-}
-.popover-left-bottom:before {
-	border-left-color: #23232d
-}
-.popover-left-bottom:after {
-	border-left-color: #32323d
+.popover-left:after,.popover-left-top:after,.popover-left-bottom:after {
+border-left-color:#32323d;
 }
 .channel-horizontalgrid-control {
 	border: 1px solid #23232d;
